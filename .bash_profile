@@ -46,3 +46,33 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# =========================== ADDITIONS =================================
+# Add my settings for virtualenvs and python
+
+# Set architecture flags
+export ARCHFLAGS="-arch x86_64"
+# Ensure user-installed binaries take precedence
+export PATH=/usr/local/bin:$PATH
+
+# Load .bashrc if it exists
+# test -f ~/.bashrc && source ~/.bashrc
+
+# if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#     . $(brew --prefix)/etc/bash_completion
+# fi
+
+
+# set where virutal environments will live
+export WORKON_HOME=$HOME/.virtualenvs
+# ensure all new environments are isolated from the site-packages directory
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+# use the same directory for virtualenvs as virtualenvwrapper
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+# makes pip detect an active virtualenv and install to it
+export PIP_RESPECT_VIRTUALENV=true
+if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
+    source /usr/local/bin/virtualenvwrapper.sh
+else
+    echo "WARNING: Can't find virtualenvwrapper.sh"
+fi
