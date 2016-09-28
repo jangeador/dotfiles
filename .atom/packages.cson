@@ -1,0 +1,15 @@
+packages: [
+  "autocomplete-python"
+  "django-templates"
+  "git-control"
+  "language-apache"
+  "language-docker"
+  "language-log"
+  "linter"
+  "linter-docker"
+  "linter-flake8"
+  "linter-pep8"
+  "package-sync"
+  "project-manager"
+  "vim-mode"
+]

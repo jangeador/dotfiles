@@ -1,0 +1,17 @@
+"*":
+  editor:
+    backUpBeforeSaving: true
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "412dbca5-edd6-9221-5967-03634ce39c34"
+  "git-plus":
+    pullBeforePush: "pull"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "project-manager":
+    environmentSpecificProjects: true
+    includeGitRepositories: true
+  welcome:
+    showOnStartup: false
