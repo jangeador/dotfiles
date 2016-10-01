@@ -1,12 +1,23 @@
 "*":
+  core:
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
   editor:
     backUpBeforeSaving: true
+    fontSize: 12
+    invisibles: {}
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
     userId: "412dbca5-edd6-9221-5967-03634ce39c34"
   "git-plus":
     pullBeforePush: "pull"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   "package-sync":
     createOnChange: true
     forceOverwrite: true
