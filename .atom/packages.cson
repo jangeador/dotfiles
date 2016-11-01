@@ -8,6 +8,7 @@ packages: [
   "django-templates"
   "editorconfig"
   "emmet"
+  "ex-mode"
   "git-control"
   "git-diff-details"
   "git-plus"

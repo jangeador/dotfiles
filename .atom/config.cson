@@ -3,9 +3,6 @@
     general:
       _analyticsUserId: "24e610e2-fc86-41b3-9f1b-3df7809aa296"
   core:
-    disabledPackages: [
-      "vim-mode"
-    ]
     telemetryConsent: "limited"
     themes: [
       "seti-ui"
@@ -31,6 +28,5 @@
   "project-manager":
     environmentSpecificProjects: true
     includeGitRepositories: true
-  softTabs: true
   welcome:
     showOnStartup: false
