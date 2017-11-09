@@ -2,6 +2,8 @@
   "atom-beautify":
     general:
       _analyticsUserId: "24e610e2-fc86-41b3-9f1b-3df7809aa296"
+  "autocomplete-python":
+    useKite: false
   core:
     telemetryConsent: "limited"
     themes: [
@@ -11,22 +13,46 @@
   editor:
     backUpBeforeSaving: true
     fontSize: 12
-    invisibles: {}
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
     userId: "412dbca5-edd6-9221-5967-03634ce39c34"
+  gist:
+    token: "4232dfe596808e655a30f5a5373b488f3cda2a79"
   "git-plus":
     pullBeforePush: "pull"
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+  nuclide:
+    "nuclide-remote-projects":
+      connectionProfiles: [
+        {
+          deletable: true
+          displayTitle: "tftp_server"
+          params:
+            displayTitle: "tftp_server"
+            username: "delio"
+            server: "10.2.242.60"
+            cwd: "/tftpboot"
+            sshPort: "22"
+            authMethod: "PRIVATE_KEY"
+            pathToPrivateKey: "/Users/delio/.ssh/id_rsa"
+            remoteServerCommand: ""
+          saveable: true
+        }
+      ]
   "package-sync":
     createOnChange: true
     forceOverwrite: true
   "project-manager":
     environmentSpecificProjects: true
     includeGitRepositories: true
+  "sync-settings":
+    _lastBackupHash: "4b95709ec7e1da0363724dd3bb822d92e3aade5c"
+    gistId: "56ca812da64b3bd1313cd507e84cc903"
+    personalAccessToken: "4232dfe596808e655a30f5a5373b488f3cda2a79"
+    quietUpdateCheck: true
   welcome:
     showOnStartup: false
